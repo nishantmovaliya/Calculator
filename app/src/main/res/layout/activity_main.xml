@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="@string/enter_first_value"
-        android:inputType="number"
+        android:inputType="number|numberDecimal"
         android:padding="10dp" />
 
     <EditText
@@ -35,7 +35,7 @@
         android:layout_marginTop="5dp"
         android:ems="10"
         android:hint="@string/enter_second_value"
-        android:inputType="number"
+        android:inputType="number|numberDecimal"
         android:padding="10dp" />
 
     <TextView
